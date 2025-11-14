@@ -1,0 +1,6 @@
+[submodule "gsplat"]
+	path = gsplat
+	url = https://github.com/rocm/gsplat
+[submodule "taichi"]
+	path = taichi
+	url = https://github.com/ROCm/taichi
