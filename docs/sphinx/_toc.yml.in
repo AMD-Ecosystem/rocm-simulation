@@ -1,0 +1,35 @@
+defaults:
+  numbered: False
+  maxdepth: 6
+root: index
+subtrees:
+- entries:
+  - file: about/release-notes.md
+    title: Release notes
+  - file: about/compatibility-matrix.md
+    title: Compatibility matrix
+
+- caption: Install
+  entries:
+  - file: install/install.rst
+
+- caption: Components
+  entries: 
+  - url: https://rocm.docs.amd.com/projects/taichi/en/latest/
+    title: Taichi Lang
+  - url: https://rocm.docs.amd.com/projects/gsplat/en/latest/
+    title: GSplat
+
+- caption: Resources
+  entries:
+  - url: https://rocm.blogs.amd.com/artificial-intelligence/taichi/README.html
+    title: ROCm Taichi Lang blog
+  - url:https://rocm.blogs.amd.com/software-tools-optimization/gsplat/README.html
+    title: ROCm GSplat blog
+
+- caption: About
+  entries:
+  - url: https://rocm.docs.amd.com/en/latest/contribute/contributing.html
+    title: Contribute to ROCm-Simulation
+  - file: about/license.md
+    title: License
