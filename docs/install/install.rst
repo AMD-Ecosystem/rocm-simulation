@@ -62,5 +62,5 @@ After confirming your system meets the supported hardware and software configura
 
 2. Install each ROCm-Simulation component. The installation instructions for each component can be found as follows: 
 
-   * Taichi Lang on ROCm - `Installation instructions <https://rocm.docs.amd.com/projects/taichi/en/docs-25.11/install/taichi-install.html>`__
-   * GSplat on ROCm - `Installation instructions <https://rocm.docs.amd.com/projects/gsplat/en/docs-25.11/install/gsplat-install.html>`__
+   * Taichi Lang on ROCm - `Installation instructions <https://rocm.docs.amd.com/projects/taichi-internal/en/docs-25.11/install/taichi-install.html>`__
+   * GSplat on ROCm - `Installation instructions <https://rocm.docs.amd.com/projects/gsplat-internal/en/docs-25.11/install/gsplat-install.html>`__
