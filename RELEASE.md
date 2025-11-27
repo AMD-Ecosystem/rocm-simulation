@@ -48,12 +48,12 @@ Click {fab}`github` to go to the component's source code on GitHub.
         </colgroup>
         <tbody class="rocm-sim-components">
             <tr>
-                <td><a href="https://rocm.docs.amd.com/projects/taichi/en/docs-25.10/">Taichi Lang</a></td>
+                <td><a href="https://rocm.docs.amd.com/projects/taichi-internal/en/docs-25.10/">Taichi Lang</a></td>
                 <td>1.8.0b1</td>
                 <td><a href="https://github.com/ROCm/taichi"><i class="fab fa-github fa-lg"></i></a></td>
             </tr>
             <tr>
-                <td><a href="https://rocm.docs.amd.com/projects/gsplat/en/docs-25.10/">GSplat</a></td>
+                <td><a href="https://rocm.docs.amd.com/projects/gsplat-internal/en/docs-25.10/">GSplat</a></td>
                 <td>1.5.3</td>
                 <td><a href="https://github.com/ROCm/gsplat"><i class="fab fa-github fa-lg"></i></a></td>
             </tr>
