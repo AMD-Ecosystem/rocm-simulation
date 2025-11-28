@@ -13,7 +13,7 @@ Use this matrix to view the ROCm-Simulation compatibility and system requirement
 +---------------------------+---------------------------+-------------------------+-------------------------+-----------------------------------------------+----------------------------------------------+
 | ROCm-Simulation version   | Ubuntu                    | ROCm version            | Python version          | AMD Instinct GPU                              | Component                                    |
 +===========================+===========================+=========================+=========================+===============================================+==============================================+
-| 25.11                     | 22.04,                    | 7.0.0,                  | 3.12,                   | MI300X                                        | `Taichi v1.8.0b2                             |
+| 25.11                     | 22.04,                    | 7.0.0,                  | 3.12,                   | MI300X                                        | `Taichi Lang v1.8.0b2                        |
 |                           | 24.04                     | 6.4.3                   | 3.10                    |                                               | <https://rocm.docs.amd.com/projects/         |
 |                           |                           |                         |                         |                                               | taichi-internal/en/docs-25.11/install/       |
 |                           |                           |                         |                         |                                               | taichi-install.html>`__                      |
@@ -24,7 +24,7 @@ Use this matrix to view the ROCm-Simulation compatibility and system requirement
 |                           |                           |                         |                         | MI250X,                                       | gsplat-install.html>`__                      |
 |                           |                           |                         |                         | MI210                                         |                                              |
 +---------------------------+---------------------------+-------------------------+-------------------------+-----------------------------------------------+----------------------------------------------+
-| 25.10                     | 22.04                     | 6.3.2                   | 3.10.12                 | MI250X,                                       | `Taichi v1.8.0b1                             |
+| 25.10                     | 22.04                     | 6.3.2                   | 3.10.12                 | MI250X,                                       | `Taichi Lang v1.8.0b1                        |
 |                           |                           |                         |                         | MI210                                         | <https://rocm.docs.amd.com/projects/         |
 |                           |                           |                         |                         |                                               | taichi-internal/en/docs-25.10/install/       |
 |                           |                           |                         |                         |                                               | taichi-install.html>`__                      |
