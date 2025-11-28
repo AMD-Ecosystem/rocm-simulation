@@ -74,4 +74,4 @@ The ROCm-Simulation public repository is hosted at `https://github.com/ROCm-Simu
 
 To contribute to the documentation refer to `Contributing to ROCm  <https://rocm.docs.amd.com/en/latest/contribute/contributing.html>`__.
 
-You can find licensing information on the :doc:`Licensing <about/license.md>` page.
+You can find licensing information on the :doc:`Licensing <about/license>` page.

@@ -6,7 +6,7 @@ subtrees:
 - entries:
   - file: about/release-notes.md
     title: Release notes
-  - file: about/compatibility-matrix.md
+  - file: about/compatibility-matrix.rst
     title: Compatibility matrix
 
 - caption: Install
@@ -31,5 +31,5 @@ subtrees:
   entries:
   - url: https://rocm.docs.amd.com/en/latest/contribute/contributing.html
     title: Contribute to ROCm-Simulation
-  - file: about/license.md
+  - file: about/license.rst
     title: License

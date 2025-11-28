@@ -26,7 +26,9 @@ This release introduces the following ROCm-enabled libraries:
 
 ## System requirements
 
-> **Note:** For the 25.10 release, the ROCm-Simulation components must be installed separately and have unique hardware requirements. Ensure you have the system requirements listed in the [installation instructions](docs/install/install.rst) to proceed for each component.
+```{note}
+For the 25.10 release, the ROCm-Simulation components must be installed separately and have unique hardware requirements. See [installation instructions](https://rocm.docs.amd.com/projects/rocm-simulation-internal/en/docs-25.10/install/install.html) to proceed for each component. See support and versioning information in the [compatibility matrix](https://rocm.docs.amd.com/projects/rocm-simulation-internal/en/docs-25.10/about/compatibility-matrix.html). 
+```
 
 ## ROCm-Simulation components
 
