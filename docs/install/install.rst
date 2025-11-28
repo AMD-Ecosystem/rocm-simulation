@@ -26,7 +26,7 @@ To use both Taichi Lang and GSplat, you need the following prerequisites:
 
 .. note::
 
-   If you are only installing Taichi Lang or GSplat, see the :doc:`Compatibility matrix <./about/compatibility-matrix>` page.
+   If you are only installing Taichi Lang or GSplat, see the :ref:`simulation-compat-matrix` page.
 
 Install ROCm-Simulation 
 ======================================================================================
