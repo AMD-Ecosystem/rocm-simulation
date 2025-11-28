@@ -28,7 +28,7 @@ This release includes the following ROCm-enabled libraries:
 ## System requirements
 
 ```{note}
-For the 25.11 release, the ROCm-Simulation components both require ROCm 7.0.0. Ensure you have the system requirements listed in the [installation instructions](docs/install/install.rst) to proceed for each component. If you are only installing Taichi Lang or GSplat, see the [compatibility matrix](docs/about/compatibility-matrix.rst). 
+For the 25.11 release, the ROCm-Simulation components both require ROCm 7.0.0. Ensure you have the system requirements listed in the [installation instructions](https://rocm.docs.amd.com/projects/rocm-simulation-internal/en/docs-25.11/install/install.html) to proceed for each component. If you are only installing Taichi Lang or GSplat, see the [compatibility matrix](https://rocm.docs.amd.com/projects/rocm-simulation-internal/en/docs-25.11/about/compatibility-matrix.html). 
 ```
 
 ## ROCm-Simulation components
