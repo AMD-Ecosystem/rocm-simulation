@@ -15,7 +15,7 @@
 This is the initial release of the AMD ROCm Simulation Domain toolkit (ROCm-Simulation), a comprehensive open-source software collection designed to accelerate physics-based and numerical simulations on AMD GPUs. This release introduces two components; Taichi Lang and GSplat as part of the toolkit.
 
 - [ROCm-Simulation release highlights](#release-highlights)
-- [ROCm-Simulation components](##release-components)
+- [Release components](##release-components)
 - [ROCm-Simulation components](#rocm-simulation-components)
 
 ## Release highlights
