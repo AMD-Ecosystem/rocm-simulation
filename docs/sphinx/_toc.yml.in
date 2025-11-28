@@ -6,7 +6,7 @@ subtrees:
 - entries:
   - file: about/release-notes.md
     title: Release notes
-  - file: about/compatibility-matrix.md
+  - file: about/compatibility-matrix.rst
     title: Compatibility matrix
 
 - caption: Install
