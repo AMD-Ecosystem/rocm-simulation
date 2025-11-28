@@ -31,5 +31,5 @@ subtrees:
   entries:
   - url: https://rocm.docs.amd.com/en/latest/contribute/contributing.html
     title: Contribute to ROCm-Simulation
-  - file: about/license.md
+  - file: about/license.rst
     title: License

@@ -1,28 +1,35 @@
----
-myst:
-  html_meta:
-    "description": "Learn about the features and capabilities of the ROCm Simulation Domain (ROCm-Simulation)"
-    "keywords": "ROCm, simulation, AMD, Instinct, GPU, physics, numerical, solvers, Taichi, GSplat, Gaussian, Splatting, PyTorch, HIP, multi, scaling, high, performance, computing, HPC, real-time, rendering, volumetric, fluid, dynamics, rigid, body, particle, sparse, voxel, grids, differentiable, 3D, vision, computer, graphics, robotics, scientific, toolkit, accelerated"
----
+.. meta::
+   :description: ROCm Simulation Domain (ROCm-Simulation) license
+   :keywords: ROCm, simulation, AMD, Instinct, GPU, physics, numerical, solvers, Taichi, GSplat, Gaussian, Splatting, PyTorch, HIP, multi, scaling, high, performance, computing, HPC, real-time, rendering, volumetric, fluid, dynamics, rigid, body, particle, sparse, voxel, grids, differentiable, 3D, vision, computer, graphics, robotics, scientific, toolkit, accelerated
 
-# ROCm-Simulation license
+**************************************************************************************
+ROCm-Simulation license
+**************************************************************************************
 
-```{include} ../../LICENSE
-```
+.. include:: ../../LICENSE
+  :literal:
 
-## ROCm-Simulation component licenses
+ROCm-Simulation component licenses
+--------------------------------------------------------------------------------------
 
-ROCm-Simulation includes multiple components, each governed by its own license. Links to the license terms for each component can be seen below. Some components may be third-party and subject to additional licenses. For complete details, review the licenses in the individual repositories.
+ROCm-Simulation includes multiple components, each governed by its own license.
+Links to the license terms for each component can be seen below. Some components
+may be third-party and subject to additional licenses. For complete details, review
+the licenses in the individual repositories.
 
-<!-- spellcheck-disable -->
-| Component | License |
-|:---------------------|:-------------------------|
-| [Taichi Lang](https://github.com/ROCm/taichi) | [Apache 2.0](https://github.com/ROCm/taichi/blob/release/25.11/LICENSE) |
-| [GSplat](https://github.com/ROCm/gsplat) | [Apache 2.0](https://github.com/ROCm/gsplat/blob/release/25.11/LICENSE) |
+.. list-table::
+   :header-rows: 1
 
-```{note}
-The following additional terms and conditions apply to your use of ROCm-Simulation documentation.
-```
+   * - Component
+     - License
+   * - `Taichi Lang <https://github.com/ROCm/taichi>`_
+     - `Apache 2.0 <https://github.com/ROCm/taichi/blob/release/25.11/LICENSE>`_
+   * - `GSplat <https://github.com/ROCm/gsplat>`_
+     - `Apache 2.0 <https://github.com/ROCm/gsplat/blob/release/25.11/LICENSE>`_
+
+.. note::
+   The following additional terms and conditions apply to your use of ROCm-Simulation documentation.
+
 
 ©2025 Advanced Micro Devices, Inc. All rights reserved.
 
