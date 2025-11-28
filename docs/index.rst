@@ -14,7 +14,7 @@ on AMD GPUs. This toolkit enables workloads such as scientific computing, comput
 graphics, robotics, and AI-driven simulation to run on AMD Instinct GPUs and benefit
 from the optimizations available on those GPUs. ROCm-Simulation builds on the core
 ROCm libraries to combine frameworks and specialized libraries that accelerate
-physics-based and numerical simulation.
+physics-based and numerical simulations.
 
 These tools use ROCm's HIP runtime, optimized math libraries, and PyTorch
 integration to deliver high throughput for compute-intensive tasks. This provides
@@ -23,14 +23,14 @@ Physical simulation workloads, such as fluid mechanics, rigid-body dynamics, and
 volumetric rendering, require significant computational resources. By leveraging
 ROCm's open-source GPU stack together with the AMD Instinct product line, you gain
 performance from optimized kernels, flexibility from integration with Python and
-machine learning frameworks, and scalability with multi-GPU cluster and high
+machine learning frameworks, and scalability with multi-GPU clusters and high-
 performance computing (HPC) support.
 
 ROCm-Simulation provides a cohesive set of libraries and frameworks that support
-the full simulation workflow, from physics kernels and numerical solvers to
+the simulation workflow, from physics kernels and numerical solvers to
 rendering and multi-GPU scaling. Each component is optimized for GPU performance 
 on AMD Instinct GPUs while offering Python-friendly APIs and integrations with
-popular tools like PyTorch, so you can plug simulation workloads into existing 
+popular tools such as PyTorch, so that you can plug simulation workloads into existing 
 research and production pipelines with minimal friction.
 
 The ROCm Simulation Domain includes the following components:
@@ -72,6 +72,6 @@ The ROCm-Simulation public repository is hosted at `https://github.com/ROCm-Simu
     * `Taichi Lang on ROCm blog <https://rocm.blogs.amd.com/artificial-intelligence/taichi/README.html>`__
     * `GSplat on ROCm blog <https://rocm.blogs.amd.com/software-tools-optimization/gsplat/README.html>`__
 
-To contribute to the documentation refer to `Contributing to ROCm  <https://rocm.docs.amd.com/en/latest/contribute/contributing.html>`__.
+To contribute to the documentation, see `Contributing to ROCm  <https://rocm.docs.amd.com/en/latest/contribute/contributing.html>`__.
 
 You can find licensing information on the :doc:`Licensing <about/license>` page.

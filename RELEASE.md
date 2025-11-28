@@ -28,11 +28,11 @@ This release includes the following ROCm-enabled libraries:
 ## System requirements
 
 >```{note}
-For the 25.11 release, the ROCm-Simulation components must be installed separately and have unique hardware requirements. Ensure you have the system requirements listed in the [installation instructions](docs/install/install.rst) to proceed for each component.
+For the 25.11 release, the ROCm-Simulation components both require ROCm 7.0.0. Ensure you have the system requirements listed in the [installation instructions](docs/install/install.rst) to proceed for each component. If you are only installing Taichi Lang or GSplat, see the [compatibility matrix](docs/about/compatibility-matrix.rst). 
 
 ## ROCm-Simulation components
 
-The following table lists ROCm-Simulation components versions for the 25.11 release, including any version changes for the components. 
+The following table lists ROCm-Simulation components versions for ROCm-Simulation 25.11, including any version changes for the components. 
 Click {fab}`github` to go to the component's source code on GitHub.
 
 <div class="pst-scrollable-table-container">
@@ -51,7 +51,7 @@ Click {fab}`github` to go to the component's source code on GitHub.
         <tbody class="rocm-sim-components">
             <tr>
                 <td><a href="https://rocm.docs.amd.com/projects/taichi-internal/en/docs-25.11/">Taichi Lang</a></td>
-                <td>1.8.0b1&nbsp;&Rightarrow;&nbsp;<a href="#taichi-1-8-0b2">1.8.0b2</a></td>
+                <td>1.8.0b1&nbsp;&Rightarrow;&nbsp;<a href="#taichi-lang-1-8-0b2">1.8.0b2</a></td>
                 <td><a href="https://github.com/ROCm/taichi"><i class="fab fa-github fa-lg"></i></a></td>
             </tr>
             <tr>
@@ -65,15 +65,15 @@ Click {fab}`github` to go to the component's source code on GitHub.
 
 ## Detailed component changelogs
 
-### Taichi Lang
+### Taichi Lang 1.8.0b2
 
-Taichi Lang version 1.8.0b2 introduces support on ROCm 7.0.0.
+This release is supported on ROCm 7.0.0.
 
-### GSplat
+### GSplat 1.5.3
 
-GSplat version 1.5.3 is now supported on ROCm 7.0.0.
+This version is now supported on ROCm 7.0.0.
 
 Latest features:
 
-- Added support for MI325X and MI350X.
-- ``Fused SSIM`` is enabled: ``Fused SSIM`` refers to an optimized implementation of the Structural Similarity Index Measure (SSIM) that combines multiple operations into a single, more efficient kernel. Benchmarks show a resultant 25% improvement in training time.
+- Added support for AMD Instinct MI325X and MI350X.
+- ``Fused SSIM`` is enabled: ``Fused SSIM`` refers to an optimized implementation of the Structural Similarity Index Measure (SSIM) that combines multiple operations into a single, more efficient kernel. Benchmarks show a result of significant improvement in training time.
