@@ -27,7 +27,7 @@ This release includes the following ROCm-enabled libraries:
 
 ## System requirements
 
-> **Note:** For the 25.11 release, the ROCm-Simulation components both require ROCm 7.0.0. Ensure you have the system requirements listed in the [installation instructions](docs/install/install.rst) to proceed for each component. If you are only installing Taichi Lang or GSplat, see the [compatibility matrix](docs/about/compatibility-matrix.rst). 
+> For the 25.11 release, the ROCm-Simulation components both require ROCm 7.0.0. Ensure you have the system requirements listed in the [installation instructions](docs/install/install.rst) to proceed for each component. If you are only installing Taichi Lang or GSplat, see the [compatibility matrix](docs/about/compatibility-matrix.rst). 
 
 ## ROCm-Simulation components
 
@@ -75,4 +75,4 @@ This version is now supported on ROCm 7.0.0.
 Latest features:
 
 - Added support for AMD Instinct MI325X and MI350X.
-- ``Fused SSIM`` is enabled: ``Fused SSIM`` refers to an optimized implementation of the Structural Similarity Index Measure (SSIM) that combines multiple operations into a single, more efficient kernel. Benchmarks show a result of significant improvement in training time.
+- ``Fused SSIM`` is enabled: ``Fused SSIM`` refers to an optimized implementation of the Structural Similarity Index Measure (SSIM) that combines multiple operations into a single, more efficient kernel. Benchmarks show a resultant significant improvement in training time.
