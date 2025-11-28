@@ -31,6 +31,10 @@ html_theme_options = {
     "flavor": "rocm-simulation",
     # Add any additional theme options here
 }
+
+html_static_path = ["sphinx/static/css"]
+html_css_files = ["rocm_custom.css"]
+
 extensions = ["rocm_docs"]
 
 # Table of contents
