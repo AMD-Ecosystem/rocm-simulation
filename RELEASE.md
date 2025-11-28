@@ -12,21 +12,23 @@
 <!-- spellcheck-disable                                     -->
 # ROCm-Simulation 25.11 Release notes
 
-This is the initial release of the AMD ROCm Simulation Domain toolkit (ROCm-Simulation), a comprehensive open-source software collection designed to accelerate physics-based and numerical simulations on AMD GPUs. This release introduces two components; Taichi Lang and GSplat as part of the toolkit.
+This is the second release of the AMD ROCm Simulation Domain toolkit (ROCm-Simulation), a comprehensive open-source software collection designed to accelerate physics-based and numerical simulations on AMD GPUs. This release introduces support for ROCm 7.0.0 for the two components; Taichi Lang and GSplat.
 
-- [ROCm-Simulation release highlights](#rocm-sim-release-highlights)
-- [ROCm-Simulation components](#rocm-sim-components)
+- [ROCm-Simulation release highlights](#release-highlights)
+- [ROCm-Simulation components](##release-components)
+- [ROCm-Simulation components](#rocm-simulation-components)
 
 ## Release highlights
 
-This release introduces the following ROCm-enabled libraries:
+This release includes the following ROCm-enabled libraries:
 
 * [Taichi Lang](https://www.taichi-lang.org/) is an open-source, imperative, parallel programming language for high-performance numerical computation. It is embedded in Python and uses just-in-time (JIT) compiler frameworks (such as LLVM) to offload the compute-intensive Python code to the native GPU or CPU instructions.
 * [GSplat (Gaussian splatting)](https://dl.acm.org/doi/10.1145/3592433) is a highly efficient technique for real-time rendering of 3D scenes trained from a collection of multiview 2D images of the scene. It has emerged as an alternative to neural radiance fields (NeRFs), offering significant advantages in rendering speed while maintaining visual quality.
 
 ## System requirements
 
-> **Note:** For the 25.11 release, the ROCm-Simulation components must be installed separately and have unique hardware requirements. Ensure you have the system requirements listed in the [installation instructions](docs/install/install.rst) to proceed for each component.
+>```{note}
+For the 25.11 release, the ROCm-Simulation components must be installed separately and have unique hardware requirements. Ensure you have the system requirements listed in the [installation instructions](docs/install/install.rst) to proceed for each component.
 
 ## ROCm-Simulation components
 

@@ -45,9 +45,9 @@ The ROCm Simulation Domain includes the following components:
   artificial intelligence, and visual effects for gaming and film.
 
 * GSplat (Gaussian splatting) is an open-source library for GPU-accelerated
-  differentiable rasterization of 3D gaussians with Python bindings. It is
-  inspired by the SIGGRAPH paper `“3D Gaussian Splatting for Real-Time
-  Rendering of Radiance Fields” <https://dl.acm.org/doi/10.1145/3592433>`__.
+  differentiable rasterization of 3D Gaussians with Python bindings. It is
+  inspired by the SIGGRAPH paper: `3D Gaussian Splatting for Real-Time
+  Rendering of Radiance Fields <https://dl.acm.org/doi/10.1145/3592433>`__.
   The ROCm-enabled release of GSplat is built on top of PyTorch, enabling
   innovators working at the intersection of computer graphics, machine learning,
   and 3D vision to leverage GPU acceleration for building, research, and
