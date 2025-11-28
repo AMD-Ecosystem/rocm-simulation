@@ -35,14 +35,14 @@ research and production pipelines with minimal friction.
 
 The ROCm Simulation Domain includes the following components:
 
-* `Taichi Lang <https://www.taichi-lang.org/>`__ is an open-source, imperative,
-  and parallel programming language embedded in Python, designed for
-  high-performance numerical computation and real-time physical simulation. It
-  uses just-in-time (JIT) compilation frameworks such as LLVM to accelerate
-  compute-intensive Python code by compiling it into optimized GPU or CPU
-  instructions. Taichi Lang is widely used in domains such as fluid dynamics,
-  particle-based simulations, robotics, computer vision, augmented reality,
-  artificial intelligence, and visual effects for gaming and film.
+* Taichi Lang is an open-source, imperative, and parallel programming language
+  embedded in Python, designed for high-performance numerical computation
+  and real-time physical simulation. It uses just-in-time (JIT) compilation
+  frameworks such as LLVM to accelerate compute-intensive Python code by
+  compiling it into optimized GPU or CPU instructions. Taichi Lang is widely
+  used in domains such as fluid dynamics, particle-based simulations, robotics,
+  computer vision, augmented reality, artificial intelligence, and visual effects
+  for gaming and film.
 
 * GSplat (Gaussian splatting) is an open-source library for GPU-accelerated
   differentiable rasterization of 3D Gaussians with Python bindings. It is
@@ -64,8 +64,8 @@ The ROCm-Simulation public repository is hosted at `https://github.com/ROCm-Simu
 
   .. grid-item-card:: Components
 
-    * `Taichi Lang <https://rocm.docs.amd.com/projects/taichi/en/latest/>`__
-    * `GSplat <https://rocm.docs.amd.com/projects/gsplat/en/latest/>`__
+    * `Taichi Lang <https://rocm.docs.amd.com/projects/taichi-internal/en/latest/>`__
+    * `GSplat <https://rocm.docs.amd.com/projects/gsplat-internal/en/latest/>`__
 
   .. grid-item-card:: Resources
 
