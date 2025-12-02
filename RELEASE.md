@@ -20,7 +20,7 @@ This is the second release of the AMD ROCm Simulation Domain toolkit (ROCm-Simul
 
 ## Release highlights
 
-This release introduces support for ROCm 7.0.0 for the two components; Taichi Lang and GSplat.
+This release introduces **support for [ROCm 7.0.0](https://rocm.docs.amd.com/en/docs-7.0.0/)** for the two components:
 
 * [Taichi Lang](https://rocm.docs.amd.com/projects/taichi/en/latest/) is an open-source, imperative, parallel programming language for high-performance numerical computation. It is embedded in Python and uses just-in-time (JIT) compiler frameworks (such as LLVM) to offload the compute-intensive Python code to the native GPU or CPU instructions.
 * [GSplat (Gaussian splatting)](https://rocm.docs.amd.com/projects/gsplat/en/latest/) is a highly efficient technique for real-time rendering of 3D scenes trained from a collection of multiview 2D images of the scene. It has emerged as an alternative to neural radiance fields (NeRFs), offering significant advantages in rendering speed while maintaining visual quality.
@@ -53,12 +53,12 @@ Click {fab}`github` to go to the component's source code on GitHub.
             <tr>
                 <td><a href="https://rocm.docs.amd.com/projects/taichi/en/docs-25.11/">Taichi Lang</a></td>
                 <td>1.8.0b1&nbsp;&Rightarrow;&nbsp;<a href="#taichi-lang-1-8-0b2">1.8.0b2</a></td>
-                <td><a href="https://github.com/ROCm/taichi"><i class="fab fa-github fa-lg"></i></a></td>
+                <td><a href="https://github.com/ROCm/taichi/tree/release/1.8.0b2"><i class="fab fa-github fa-lg"></i></a></td>
             </tr>
             <tr>
                 <td><a href="https://rocm.docs.amd.com/projects/gsplat/en/docs-25.11/">GSplat</a></td>
                 <td>1.5.3b1&nbsp;&Rightarrow;&nbsp;<a href="#gsplat-1-5-3b2">1.5.3b2</a></td>
-                <td><a href="https://github.com/ROCm/gsplat"><i class="fab fa-github fa-lg"></i></a></td>
+                <td><a href="https://github.com/ROCm/gsplat/tree/release/1.5.3b2"><i class="fab fa-github fa-lg"></i></a></td>
             </tr>
         </tbody>
     </table>
@@ -70,7 +70,9 @@ Click {fab}`github` to go to the component's source code on GitHub.
 
 This release adds support for ROCm 7.0.0.
 
-- Added support for AMD Instinct MI355X, MI325X, and MI300X.
+Latest features:
+
+- Added support for AMD Instinct MI355X, MI325X, and MI300X GPUs.
 
 ### GSplat 1.5.3b2
 
@@ -78,5 +80,5 @@ This release adds support for ROCm 7.0.0.
 
 Latest features:
 
-- Added support for AMD Instinct MI350X and MI325X.
+- Added support for AMD Instinct MI350X and MI325X GPUs.
 - ``Fused SSIM`` is enabled: ``Fused SSIM`` refers to an optimized implementation of the Structural Similarity Index Measure (SSIM) that combines multiple operations into a single, more efficient kernel. Benchmarks show a resultant significant improvement in training time.
