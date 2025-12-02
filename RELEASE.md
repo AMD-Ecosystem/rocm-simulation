@@ -33,7 +33,7 @@ For the 25.10 release, the ROCm-Simulation components must be installed separate
 
 ## ROCm-Simulation components
 
-The following table lists ROCm-Simulation components versions for the 25.10 release, including any version changes for the components. 
+The following table lists the ROCm-Simulation component version for the 25.10 release. 
 Click {fab}`github` to go to the component's source code on GitHub.
 
 <div class="pst-scrollable-table-container">
