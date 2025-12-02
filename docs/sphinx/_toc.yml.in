@@ -15,9 +15,9 @@ subtrees:
 
 - caption: Components
   entries: 
-  - url: https://rocm.docs.amd.com/projects/taichi-internal/en/latest/
+  - url: https://rocm.docs.amd.com/projects/taichi/en/latest/
     title: Taichi Lang
-  - url: https://rocm.docs.amd.com/projects/gsplat-internal/en/latest/
+  - url: https://rocm.docs.amd.com/projects/gsplat/en/latest/
     title: GSplat
 
 - caption: Resources
@@ -29,7 +29,5 @@ subtrees:
 
 - caption: About
   entries:
-  - url: https://rocm.docs.amd.com/en/latest/contribute/contributing.html
-    title: Contribute to ROCm-Simulation
   - file: about/license.rst
     title: License

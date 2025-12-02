@@ -15,11 +15,11 @@ ROCm Docker image for supported Ubuntu versions and installing components.
 System requirements
 ======================================================================================
 
-The ROCm-Simulation components are supported on AMD Instinct™ MI300X GPUs.
+The ROCm-Simulation components are both supported on AMD Instinct™ MI325X and MI300X GPUs.
 
 To use both Taichi Lang and GSplat, you need the following prerequisites:
 
-- **ROCm version**: `7.0.0 <https://repo.radeon.com/rocm/apt/7.0/>`__ 
+- **ROCm version:** `7.0.0 <https://repo.radeon.com/rocm/apt/7.0/>`__ 
 - **Operating system:** Ubuntu 24.04
 - **PyTorch:** `2.8 <https://github.com/ROCm/pytorch/tree/v2.8.0>`__ (ROCm-enabled)
 - **Python:** `3.12 <https://www.python.org/downloads/release/python-3120/>`__
@@ -66,5 +66,5 @@ After confirming your system meets the supported hardware and software configura
 
 2. Install each ROCm-Simulation component. The installation instructions for each component can be found as follows: 
 
-   * Taichi Lang on ROCm - `Installation instructions <https://rocm.docs.amd.com/projects/taichi-internal/en/docs-25.11/install/taichi-install.html>`__
-   * GSplat on ROCm - `Installation instructions <https://rocm.docs.amd.com/projects/gsplat-internal/en/docs-25.11/install/gsplat-install.html>`__
+   * Taichi Lang on ROCm - `Installation instructions <https://rocm.docs.amd.com/projects/taichi/en/docs-25.11/install/taichi-install.html>`__
+   * GSplat on ROCm - `Installation instructions <https://rocm.docs.amd.com/projects/gsplat/en/docs-25.11/install/gsplat-install.html>`__

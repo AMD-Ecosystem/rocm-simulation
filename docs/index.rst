@@ -46,14 +46,14 @@ The ROCm Simulation Domain includes the following components:
 
 * GSplat (Gaussian splatting) is an open-source library for GPU-accelerated
   differentiable rasterization of 3D Gaussians with Python bindings. It is
-  inspired by the SIGGRAPH paper: `3D Gaussian Splatting for Real-Time
-  Rendering of Radiance Fields <https://dl.acm.org/doi/10.1145/3592433>`__.
+  inspired by the SIGGRAPH paper `"3D Gaussian Splatting for Real-Time
+  Rendering of Radiance Fields" <https://dl.acm.org/doi/10.1145/3592433>`__.
   The ROCm-enabled release of GSplat is built on top of PyTorch, enabling
   innovators working at the intersection of computer graphics, machine learning,
   and 3D vision to leverage GPU acceleration for building, research, and
   innovation with Gaussian Splatting.
 
-The ROCm-Simulation public repository is hosted at `https://github.com/ROCm-Simulation/ <https://github.com/ROCm-Simulation/>`__.
+The ROCm-Simulation public repository is hosted at `https://github.com/ROCm/ROCm-Simulation-Docs <https://github.com/ROCm/ROCm-Simulation-Docs>`__.
 
 .. grid:: 2
   :gutter: 3
@@ -64,8 +64,8 @@ The ROCm-Simulation public repository is hosted at `https://github.com/ROCm-Simu
 
   .. grid-item-card:: Components
 
-    * `Taichi Lang <https://rocm.docs.amd.com/projects/taichi-internal/en/latest/>`__
-    * `GSplat <https://rocm.docs.amd.com/projects/gsplat-internal/en/latest/>`__
+    * `Taichi Lang <https://rocm.docs.amd.com/projects/taichi/en/latest/>`__
+    * `GSplat <https://rocm.docs.amd.com/projects/gsplat/en/latest/>`__
 
   .. grid-item-card:: Resources
 
