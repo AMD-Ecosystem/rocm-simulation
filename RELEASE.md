@@ -12,14 +12,15 @@
 <!-- spellcheck-disable                                     -->
 # ROCm-Simulation 25.10 Release notes
 
-This is the initial release of the AMD ROCm Simulation Domain toolkit (ROCm-Simulation), a comprehensive open-source software collection designed to accelerate physics-based and numerical simulations on AMD GPUs. This release introduces two components; Taichi Lang and GSplat as part of the toolkit.
+This is the initial release of the AMD ROCm Simulation Domain toolkit (ROCm-Simulation), a comprehensive open-source software collection designed to accelerate physics-based and numerical simulations on AMD GPUs. This release introduces two components; Taichi Lang and GSplat.
 
-- [ROCm-Simulation release highlights](#release-highlights)
+- [Release highlights](#release-highlights)
+- [System requirements](#system-requirements)
 - [ROCm-Simulation components](#rocm-simulation-components)
 
 ## Release highlights
 
-This release introduces the following ROCm-enabled libraries:
+This release introduces the following ROCm-enabled components:
 
 * [Taichi Lang](https://www.taichi-lang.org/) is an open-source, imperative, parallel programming language for high-performance numerical computation. It is embedded in Python and uses just-in-time (JIT) compiler frameworks (such as LLVM) to offload the compute-intensive Python code to the native GPU or CPU instructions.
 * [GSplat (Gaussian splatting)](https://dl.acm.org/doi/10.1145/3592433) is a highly efficient technique for real-time rendering of 3D scenes trained from a collection of multiview 2D images of the scene. It has emerged as an alternative to neural radiance fields (NeRFs), offering significant advantages in rendering speed while maintaining visual quality.
@@ -27,7 +28,7 @@ This release introduces the following ROCm-enabled libraries:
 ## System requirements
 
 ```{note}
-For the 25.10 release, the ROCm-Simulation components must be installed separately and have unique hardware requirements. See [installation instructions](https://rocm.docs.amd.com/projects/rocm-simulation-internal/en/docs-25.10/install/install.html) to proceed for each component. See support and versioning information in the [compatibility matrix](https://rocm.docs.amd.com/projects/rocm-simulation-internal/en/docs-25.10/about/compatibility-matrix.html). 
+For the 25.10 release, the ROCm-Simulation components must be installed separately and have unique hardware requirements. See [installation instructions](https://rocm.docs.amd.com/projects/rocm-simulation/en/docs-25.10/install/install.html) to proceed for each component. See support and versioning information in the [compatibility matrix](https://rocm.docs.amd.com/projects/rocm-simulation/en/docs-25.10/about/compatibility-matrix.html). 
 ```
 
 ## ROCm-Simulation components
@@ -50,14 +51,14 @@ Click {fab}`github` to go to the component's source code on GitHub.
         </colgroup>
         <tbody class="rocm-sim-components">
             <tr>
-                <td><a href="https://rocm.docs.amd.com/projects/taichi-internal/en/docs-25.10/">Taichi Lang</a></td>
+                <td><a href="https://rocm.docs.amd.com/projects/taichi/en/docs-25.10/">Taichi Lang</a></td>
                 <td>1.8.0b1</td>
-                <td><a href="https://github.com/ROCm/taichi"><i class="fab fa-github fa-lg"></i></a></td>
+                <td><a href="https://github.com/ROCm/taichi/tree/amd-release/v1.8.0b1"><i class="fab fa-github fa-lg"></i></a></td>
             </tr>
             <tr>
-                <td><a href="https://rocm.docs.amd.com/projects/gsplat-internal/en/docs-25.10/">GSplat</a></td>
-                <td>1.5.3</td>
-                <td><a href="https://github.com/ROCm/gsplat"><i class="fab fa-github fa-lg"></i></a></td>
+                <td><a href="https://rocm.docs.amd.com/projects/gsplat/en/docs-25.10/">GSplat</a></td>
+                <td>1.5.3b1</td>
+                <td><a href="https://github.com/ROCm/gsplat/tree/release/1.5.3b1"><i class="fab fa-github fa-lg"></i></a></td>
             </tr>
         </tbody>
     </table>

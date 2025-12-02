@@ -23,9 +23,9 @@ the licenses in the individual repositories.
    * - Component
      - License
    * - `Taichi Lang <https://github.com/ROCm/taichi>`__
-     - `Apache 2.0 <https://github.com/ROCm/taichi/blob/release/25.11/LICENSE>`__
+     - `Apache 2.0 <https://github.com/ROCm/taichi/blob/amd-integration/LICENSE>`__
    * - `GSplat <https://github.com/ROCm/gsplat>`__
-     - `Apache 2.0 <https://github.com/ROCm/gsplat/blob/release/25.11/LICENSE>`__
+     - `Apache 2.0 <https://github.com/ROCm/gsplat/blob/main/LICENSE>`__
 
 .. note::
    The following additional terms and conditions apply to your use of ROCm-Simulation documentation.

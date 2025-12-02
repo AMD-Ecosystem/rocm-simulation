@@ -14,7 +14,7 @@ on AMD GPUs. This toolkit enables workloads such as scientific computing, comput
 graphics, robotics, and AI-driven simulation to run on AMD Instinct GPUs and benefit
 from the optimizations available on those GPUs. ROCm-Simulation builds on the core
 ROCm libraries to combine frameworks and specialized libraries that accelerate
-physics-based and numerical simulation.
+physics-based and numerical simulations.
 
 These tools use ROCm's HIP runtime, optimized math libraries, and PyTorch
 integration to deliver high throughput for compute-intensive tasks. This provides
@@ -23,37 +23,37 @@ Physical simulation workloads, such as fluid mechanics, rigid-body dynamics, and
 volumetric rendering, require significant computational resources. By leveraging
 ROCm's open-source GPU stack together with the AMD Instinct product line, you gain
 performance from optimized kernels, flexibility from integration with Python and
-machine learning frameworks, and scalability with multi-GPU cluster and high
+machine learning frameworks, and scalability with multi-GPU clusters and high-
 performance computing (HPC) support.
 
 ROCm-Simulation provides a cohesive set of libraries and frameworks that support
-the full simulation workflow, from physics kernels and numerical solvers to
+the simulation workflow, from physics kernels and numerical solvers to
 rendering and multi-GPU scaling. Each component is optimized for GPU performance 
 on AMD Instinct GPUs while offering Python-friendly APIs and integrations with
-popular tools like PyTorch, so you can plug simulation workloads into existing 
+popular tools such as PyTorch, so that you can plug simulation workloads into existing 
 research and production pipelines with minimal friction.
 
 The ROCm Simulation Domain includes the following components:
 
-* `Taichi Lang <https://www.taichi-lang.org/>`__ is an open-source, imperative,
-  and parallel programming language embedded in Python, designed for
-  high-performance numerical computation and real-time physical simulation. It
-  uses just-in-time (JIT) compilation frameworks such as LLVM to accelerate
-  compute-intensive Python code by compiling it into optimized GPU or CPU
-  instructions. Taichi Lang is widely used in domains such as fluid dynamics,
-  particle-based simulations, robotics, computer vision, augmented reality,
-  artificial intelligence, and visual effects for gaming and film.
+* Taichi Lang is an open-source, imperative, and parallel programming language
+  embedded in Python, designed for high-performance numerical computation
+  and real-time physical simulation. It uses just-in-time (JIT) compilation
+  frameworks such as LLVM to accelerate compute-intensive Python code by
+  compiling it into optimized GPU or CPU instructions. Taichi Lang is widely
+  used in domains such as fluid dynamics, particle-based simulations, robotics,
+  computer vision, augmented reality, artificial intelligence, and visual effects
+  for gaming and film.
 
 * GSplat (Gaussian splatting) is an open-source library for GPU-accelerated
-  differentiable rasterization of 3D gaussians with Python bindings. It is
-  inspired by the SIGGRAPH paper `“3D Gaussian Splatting for Real-Time
-  Rendering of Radiance Fields” <https://dl.acm.org/doi/10.1145/3592433>`__.
+  differentiable rasterization of 3D Gaussians with Python bindings. It is
+  inspired by the SIGGRAPH paper `"3D Gaussian Splatting for Real-Time
+  Rendering of Radiance Fields" <https://dl.acm.org/doi/10.1145/3592433>`__.
   The ROCm-enabled release of GSplat is built on top of PyTorch, enabling
   innovators working at the intersection of computer graphics, machine learning,
   and 3D vision to leverage GPU acceleration for building, research, and
   innovation with Gaussian Splatting.
 
-The ROCm-Simulation public repository is hosted at `https://github.com/ROCm-Simulation/ <https://github.com/ROCm-Simulation/>`__.
+The ROCm-Simulation public repository is hosted at `https://github.com/ROCm/ROCm-Simulation-Docs <https://github.com/ROCm/ROCm-Simulation-Docs>`__.
 
 .. grid:: 2
   :gutter: 3
@@ -72,6 +72,6 @@ The ROCm-Simulation public repository is hosted at `https://github.com/ROCm-Simu
     * `Taichi Lang on ROCm blog <https://rocm.blogs.amd.com/artificial-intelligence/taichi/README.html>`__
     * `GSplat on ROCm blog <https://rocm.blogs.amd.com/software-tools-optimization/gsplat/README.html>`__
 
-To contribute to the documentation refer to `Contributing to ROCm  <https://rocm.docs.amd.com/en/latest/contribute/contributing.html>`__.
+To contribute to the documentation, see `Contributing to ROCm  <https://rocm.docs.amd.com/en/latest/contribute/contributing.html>`__.
 
 You can find licensing information on the :doc:`Licensing <about/license>` page.

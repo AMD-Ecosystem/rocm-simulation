@@ -9,8 +9,7 @@ Install ROCm-Simulation
 **************************************************************************************
 
 This topic provides brief guidance and recommendations on setting up a ROCm-enabled 
-environment for simulation workloads. This includes pulling and running prebuilt 
-ROCm Docker images for supported Ubuntu versions and installing components after.
+environment for simulation components.
 
 .. note::
 
@@ -23,16 +22,16 @@ System requirements
 
 To use Taichi Lang, you need the following prerequisites:
 
-- **ROCm version**: `6.3.2 <https://repo.radeon.com/rocm/apt/6.3.2/>`__  (recommended)
+- **ROCm version:** `6.3.2 <https://repo.radeon.com/rocm/apt/6.3.2/>`__  (recommended)
 - **Operating system:** Ubuntu 22.04
-- **GPU platform:** AMD Instinct™ MI250X, MI210 (GPU target gfx90a)
+- **GPU platform:** AMD Instinct™ MI250X, MI210 (GPU target: gfx90a)
 - **Python:** `3.10.12 <https://www.python.org/downloads/release/python-31012/>`__
 
 To use GSplat (Gaussian splatting), you need the following prerequisites:
 
-- **ROCm version**: `6.4.3 <https://repo.radeon.com/rocm/apt/6.4.3/>`__ (recommended)
+- **ROCm version:** `6.4.3 <https://repo.radeon.com/rocm/apt/6.4.3/>`__ (recommended)
 - **Operating system:** Ubuntu 24.04
-- **GPU platform:** AMD Instinct™ MI300X (GPU target gfx942)
+- **GPU platform:** AMD Instinct™ MI300X (GPU target: gfx942)
 - **PyTorch:** `2.6 <https://github.com/ROCm/pytorch/tree/v2.6.0>`__ (ROCm-enabled)
 - **Python:** `3.12.0 <https://www.python.org/downloads/release/python-3120/>`__
 
@@ -43,5 +42,5 @@ Install ROCm-Simulation components
 Each ROCm-Simulation 25.10 component must be separately installed as needed. The installation
 instructions for each component can be found as follows: 
 
-* Taichi Lang on ROCm - `Installation instructions <https://rocm.docs.amd.com/projects/taichi-internal/en/docs-25.10/install/taichi-install.html>`__
-* GSplat on ROCm - `Installation instructions <https://rocm.docs.amd.com/projects/gsplat-internal/en/docs-25.10/install/gsplat-install.html>`__
+* Taichi Lang on ROCm - `Installation instructions <https://rocm.docs.amd.com/projects/taichi/en/docs-25.10/install/taichi-install.html>`__
+* GSplat on ROCm - `Installation instructions <https://rocm.docs.amd.com/projects/gsplat/en/docs-25.10/install/gsplat-install.html>`__
