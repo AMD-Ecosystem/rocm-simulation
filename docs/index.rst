@@ -11,7 +11,7 @@ AMD ROCm-Simulation
 ROCm-Simulation is an open-source software toolkit built on the ROCm™ platform,
 enabling high-performance physical simulations and advanced computational graphics
 on AMD GPUs. This toolkit enables workloads such as scientific computing, computer
-graphics, robotics, and AI-driven simulation to run on AMD Instinct GPUs and benefit
+graphics, robotics, and AI-driven simulation to run on AMD Instinct™ GPUs and benefit
 from the optimizations available on those GPUs. ROCm-Simulation builds on the core
 ROCm libraries to combine frameworks and specialized libraries that accelerate
 physics-based and numerical simulations.
@@ -53,7 +53,6 @@ The ROCm Simulation Domain includes the following components:
   and 3D vision to leverage GPU acceleration for building, research, and
   innovation with Gaussian Splatting.
 
-The ROCm-Simulation public repository is hosted at `https://github.com/ROCm/ROCm-Simulation-Docs <https://github.com/ROCm/ROCm-Simulation-Docs>`__.
 
 .. grid:: 2
   :gutter: 3
