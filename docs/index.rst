@@ -63,8 +63,8 @@ The ROCm Simulation Domain includes the following components:
 
   .. grid-item-card:: Components
 
-    * `Taichi Lang <https://rocm.docs.amd.com/projects/taichi/en/latest/>`__
-    * `GSplat <https://rocm.docs.amd.com/projects/gsplat/en/latest/>`__
+    * `Taichi Lang <https://rocm.docs.amd.com/projects/taichi/en/docs-25.10/>`__
+    * `GSplat <https://rocm.docs.amd.com/projects/gsplat/en/docs-25.10/>`__
 
   .. grid-item-card:: Resources
 
