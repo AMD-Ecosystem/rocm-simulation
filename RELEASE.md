@@ -20,10 +20,10 @@ This is the second release of the AMD ROCm Simulation Domain toolkit (ROCm-Simul
 
 ## Release highlights
 
-This release introduces **support for [ROCm 7.0.0](https://rocm.docs.amd.com/en/docs-7.0.0/)** for the two components:
+This release introduces support for **[ROCm 7.0.0](https://rocm.docs.amd.com/en/docs-7.0.0/)** for the two components:
 
-* [Taichi Lang](https://rocm.docs.amd.com/projects/taichi/en/latest/) is an open-source, imperative, parallel programming language for high-performance numerical computation. It is embedded in Python and uses just-in-time (JIT) compiler frameworks (such as LLVM) to offload the compute-intensive Python code to the native GPU or CPU instructions.
-* [GSplat (Gaussian splatting)](https://rocm.docs.amd.com/projects/gsplat/en/latest/) is a highly efficient technique for real-time rendering of 3D scenes trained from a collection of multiview 2D images of the scene. It has emerged as an alternative to neural radiance fields (NeRFs), offering significant advantages in rendering speed while maintaining visual quality.
+* [Taichi Lang](https://rocm.docs.amd.com/projects/taichi/en/docs-25.11/) is an open-source, imperative, parallel programming language for high-performance numerical computation. It is embedded in Python and uses just-in-time (JIT) compiler frameworks (such as LLVM) to offload the compute-intensive Python code to the native GPU or CPU instructions.
+* [GSplat (Gaussian splatting)](https://rocm.docs.amd.com/projects/gsplat/en/docs-25.11/) is a highly efficient technique for real-time rendering of 3D scenes trained from a collection of multiview 2D images of the scene. It has emerged as an alternative to neural radiance fields (NeRFs), offering significant advantages in rendering speed while maintaining visual quality.
 
 ## System requirements
 

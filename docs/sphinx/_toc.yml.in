@@ -15,14 +15,14 @@ subtrees:
 
 - caption: Components
   entries: 
-  - url: https://rocm.docs.amd.com/projects/taichi/en/latest/
+  - url: https://rocm.docs.amd.com/projects/taichi/en/docs-25.11/
     title: Taichi Lang
-  - url: https://rocm.docs.amd.com/projects/gsplat/en/latest/
+  - url: https://rocm.docs.amd.com/projects/gsplat/en/docs-25.11/
     title: GSplat
 
 - caption: Resources
   entries:
-  - url: https://rocm.blogs.amd.com/artificial-intelligence/taichi/README.html
+  - url: https://rocm.blogs.amd.com/artificial-intelligence/taichi_mi300x/README.html
     title: ROCm Taichi Lang blog
   - url: https://rocm.blogs.amd.com/software-tools-optimization/gsplat/README.html
     title: ROCm GSplat blog
