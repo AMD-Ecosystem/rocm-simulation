@@ -80,5 +80,5 @@ This release adds support for ROCm 7.0.0.
 
 Latest features:
 
-- Added support for AMD Instinct MI350X and MI325X GPUs.
+- Added support for AMD Instinct MI325X GPUs.
 - ``Fused SSIM`` is enabled: ``Fused SSIM`` refers to an optimized implementation of the Structural Similarity Index Measure (SSIM) that combines multiple operations into a single, more efficient kernel. Benchmarks show a resultant significant improvement in training time.
