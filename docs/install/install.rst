@@ -22,6 +22,7 @@ To use both Taichi Lang and GSplat, you need the following prerequisites:
 - **ROCm version:** `7.0.0 <https://repo.radeon.com/rocm/apt/7.0/>`__ 
 - **Operating system:** Ubuntu 22.04, 24.04
 - **PyTorch:** `2.8 <https://github.com/ROCm/pytorch/tree/v2.8.0>`__ (ROCm-enabled)
+- **Python:** `3.12.3 <https://www.python.org/downloads/release/python-3123/>`__, `3.10.12 <https://www.python.org/downloads/release/python-31012/>`__
 
 .. note::
 
