@@ -71,6 +71,4 @@ The ROCm Simulation Domain includes the following components:
     * `Taichi Lang on ROCm blog <https://rocm.blogs.amd.com/artificial-intelligence/taichi_mi300x/README.html>`__
     * `GSplat on ROCm blog <https://rocm.blogs.amd.com/software-tools-optimization/gsplat/README.html>`__
 
-To contribute to the documentation, see `Contributing to ROCm  <https://rocm.docs.amd.com/en/latest/contribute/contributing.html>`__.
 
-You can find licensing information on the :doc:`Licensing <about/license>` page.
