@@ -1,6 +1,6 @@
 [submodule "gsplat"]
 	path = gsplat
-	url = https://github.com/rocm/gsplat
+	url = git@github.com:AMD-Ecosystem/gsplat.git
 [submodule "taichi"]
 	path = taichi
-	url = https://github.com/ROCm/taichi
+	url = git@github.com:AMD-Ecosystem/taichi.git
