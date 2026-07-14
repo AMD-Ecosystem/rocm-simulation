@@ -13,7 +13,7 @@ environment for simulation components.
 
 .. note::
 
-   For the 25.10 release, the ROCm-Simulation components must be installed separately
+   For the 25.10 release, the AMD Simulation components must be installed separately
    and have unique hardware requirements. Ensure you have the system requirements 
    listed below to proceed.
 
