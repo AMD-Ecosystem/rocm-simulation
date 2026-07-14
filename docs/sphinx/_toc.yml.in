@@ -15,9 +15,9 @@ subtrees:
 
 - caption: Components
   entries: 
-  - url: https://rocm.docs.amd.com/projects/taichi/en/docs-25.11/
+  - url: https://rocm.docs.amd.com/projects/taichi/en/${branch}/
     title: Taichi Lang
-  - url: https://rocm.docs.amd.com/projects/gsplat/en/docs-25.11/
+  - url: https://rocm.docs.amd.com/projects/gsplat/en/${branch}/
     title: GSplat
 
 - caption: Resources
