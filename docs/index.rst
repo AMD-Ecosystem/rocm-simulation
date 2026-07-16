@@ -5,7 +5,7 @@
 .. rocmds-index:
 
 ********************************************************************
-AMD Simulation
+AMD Simulation documentation
 ********************************************************************
 
 AMD Simulation is an open-source software toolkit built on the ROCm™ platform,

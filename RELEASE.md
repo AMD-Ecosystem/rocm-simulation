@@ -16,7 +16,7 @@ This is the second release of the AMD Simulation toolkit, a comprehensive open-s
 
 - [Release highlights](#release-highlights)
 - [System requirements](#system-requirements)
-- [AMD Simulation components](#rocm-simulation-components)
+- [AMD Simulation components](#amd-simulation-components)
 
 ## Release highlights
 
