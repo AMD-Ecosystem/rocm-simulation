@@ -21,7 +21,7 @@ This is the third release of the AMD Simulation toolkit, a comprehensive open-so
 ## Release highlights
 
 ```{note}
-AMD LLM Extension 26.10 introduces four new components as part of the toolkit (with Quadrants replacing Taichi Lang); one other component remains unchanged (GSplat).
+AMD Simulation 26.10 introduces four new components as part of the toolkit (with Quadrants replacing Taichi Lang); one other component remains unchanged (GSplat).
 ```
 
 This release introduces four components:
