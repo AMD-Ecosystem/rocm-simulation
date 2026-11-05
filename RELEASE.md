@@ -70,12 +70,12 @@ Click {fab}`github` to go to the component's source code on GitHub.
             <tr>
                 <td><a href="https://rocm.docs.amd.com/projects/warp/en/docs-26.10/">Warp</a></td>
                 <td><a href="#warp-1-13-0">1.13.0</a></td>
-                <td><a href="https://github.com/AMD-Ecosystem/warp/tree/release/v1.13.0"><i class="fab fa-github fa-lg"></i></a></td>
+                <td><a href="https://github.com/AMD-Ecosystem/warp/tree/release/1.13.0.amd0"><i class="fab fa-github fa-lg"></i></a></td>
             </tr>
             <tr>
                 <td><a href="https://rocm.docs.amd.com/projects/mujoco-warp/en/docs-26.10/">MuJoCo Warp</a></td>
                 <td><a href="#mujoco-warp-3-8-1">3.8.1</a></td>
-                <td><a href="https://github.com/AMD-Ecosystem/mujoco_warp/tree/release/v3.8.1"><i class="fab fa-github fa-lg"></i></a></td>
+                <td><a href="https://github.com/AMD-Ecosystem/mujoco_warp/tree/release/3.8.1.amd0"><i class="fab fa-github fa-lg"></i></a></td>
             </tr>
             <tr>
                 <td><a href="https://rocm.docs.amd.com/projects/gsplat/en/docs-25.11/">GSplat</a></td>

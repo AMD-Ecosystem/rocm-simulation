@@ -22,11 +22,11 @@ Use the following matrix to view the AMD Simulation compatibility and system req
 
 .. |warp-1-13-0-26-10-src| raw:: html
 
-   <a href="https://github.com/AMD-Ecosystem/warp/blob/release/v1.13.0/docker/rocm/Dockerfile" aria-label="Dockerfile"><i class="fab fa-github"></i></a>
+   <a href="https://github.com/AMD-Ecosystem/warp/blob/release/1.13.0.amd0/docker/rocm/Dockerfile" aria-label="Dockerfile"><i class="fab fa-github"></i></a>
 
 .. |mjwarp-3-8-1-26-10-src| raw:: html
 
-   <a href="https://github.com/AMD-Ecosystem/mujoco_warp/blob/release/v3.8.1/docker/rocm/Dockerfile" aria-label="Dockerfile"><i class="fab fa-github"></i></a>
+   <a href="https://github.com/AMD-Ecosystem/mujoco_warp/blob/release/3.8.1.amd0/docker/rocm/Dockerfile" aria-label="Dockerfile"><i class="fab fa-github"></i></a>
 
 .. |taichi-lang-1-8-0b2-25-11-src| raw:: html
 
