@@ -28,8 +28,8 @@ This release introduces four components:
 
 * [Quadrants](https://rocm.docs.amd.com/projects/quadrants/en/docs-26.10/) 1.3.3 is a multi-platform compiler for physics simulation. Kernels written in Python are lowered to parallel code for AMD ROCm (HIP). Genesis uses Quadrants for the numeric kernels inside its solvers, collision code, and linear algebra. Quadrants releases with support for [ROCm 10.1.0](https://rocm.docs.amd.com/en/docs-10.1.0/).
 * [Genesis](https://rocm.docs.amd.com/projects/genesis/en/docs-26.10/) 1.4.3 is a simulation platform for physical AI. A Python scene API drives rigid robots, deformable materials, fluids, and coupled solvers, with Quadrants compiling the numeric kernels. Genesis releases with support for [ROCm 10.1.0](https://rocm.docs.amd.com/en/docs-10.1.0/).
-* [Warp](https://rocm.docs.amd.com/projects/warp/en/docs-26.10/) 1.13.0 is a single library hosted at [AMD-Ecosystem/warp](https://github.com/AMD-Ecosystem/warp). It JIT-compiles regular Python functions for physics simulation, perception, robotics, and geometry processing, including MuJoCo Warp workloads. MI325X uses [ROCm 7.2.0](https://rocm.docs.amd.com/en/docs-7.2.0/). MI350X and MI355X use [ROCm 10.1.0](https://rocm.docs.amd.com/en/docs-10.1.0/).
-* [MuJoCo Warp](https://rocm.docs.amd.com/projects/mujoco-warp/en/docs-26.10/) 3.8.1 is a GPU-accelerated MuJoCo physics simulator hosted at [AMD-Ecosystem/mujoco_warp](https://github.com/AMD-Ecosystem/mujoco_warp). It is written in Warp and steps thousands of parallel, contact-rich worlds for robotics and reinforcement learning. MI325X uses [ROCm 7.2.0](https://rocm.docs.amd.com/en/docs-7.2.0/). MI350X and MI355X use [ROCm 10.1.0](https://rocm.docs.amd.com/en/docs-10.1.0/).
+* [Warp](https://rocm.docs.amd.com/projects/warp/en/docs-26.10/) 1.13.0 is a single library hosted at [AMD-Ecosystem/warp](https://github.com/AMD-Ecosystem/warp). It JIT-compiles regular Python functions for physics simulation, perception, robotics, and geometry processing, including MuJoCo Warp workloads. MI325X uses [ROCm 7.2.0](https://rocm.docs.amd.com/en/docs-7.2.0/). MI350X and MI355X use [ROCm 10.0.0](https://rocm.docs.amd.com/en/docs-10.0.0/) and [ROCm 10.1.0](https://rocm.docs.amd.com/en/docs-10.1.0/).
+* [MuJoCo Warp](https://rocm.docs.amd.com/projects/mujoco-warp/en/docs-26.10/) 3.8.1 is a GPU-accelerated MuJoCo physics simulator hosted at [AMD-Ecosystem/mujoco_warp](https://github.com/AMD-Ecosystem/mujoco_warp). It is written in Warp and steps thousands of parallel, contact-rich worlds for robotics and reinforcement learning. MI325X uses [ROCm 7.2.0](https://rocm.docs.amd.com/en/docs-7.2.0/). MI350X and MI355X use [ROCm 10.0.0](https://rocm.docs.amd.com/en/docs-10.0.0/) and [ROCm 10.1.0](https://rocm.docs.amd.com/en/docs-10.1.0/).
 
 
 ## System requirements
@@ -113,7 +113,7 @@ This release adds Warp 1.13.0, including MuJoCo Warp workloads, on Ubuntu 24.04 
 Latest features:
 
 - AMD Instinct MI325X with ROCm 7.2.0 and PyTorch 2.9.1.
-- AMD Instinct MI350X and MI355X with ROCm 10.1.0 and PyTorch 2.14.0.
+- AMD Instinct MI350X and MI355X with ROCm 10.0.0 and ROCm 10.1.0 and PyTorch 2.14.0.
 - Warp kernels run on AMD Instinct GPUs through the HIP backend.
 
 ### MuJoCo Warp 3.8.1
@@ -123,5 +123,5 @@ This release adds MuJoCo Warp 3.8.1 on Ubuntu 24.04 and Python 3.12.
 Latest features:
 
 - AMD Instinct MI325X with ROCm 7.2.0 and PyTorch 2.9.1.
-- AMD Instinct MI350X and MI355X with ROCm 10.1.0 and PyTorch 2.14.0.
+- AMD Instinct MI350X and MI355X with ROCm 10.0.0 and ROCm 10.1.0 and PyTorch 2.14.0.
 - Batched MuJoCo worlds run on AMD Instinct GPUs through the ROCm port of Warp.
